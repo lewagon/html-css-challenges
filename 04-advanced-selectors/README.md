@@ -9,7 +9,7 @@ Here is [your objective](http://lewagon.github.io/html-css-challenges/04-advance
 - Should I use a `class` or an `id`?
 - What name should I pick for my class?
 
-Try to use **generic class names** as much as you can. Think **modularity** & **re-usability**. Try to step back from the page you're coding when choosing class names. This is the main difficulty for CSS beginners.
+Try to use **generic class names** as much as you can. Think **modularity** & **re-usability**. Try to step back from the page you're coding when choosing class names. Consider each CSS class as nice re-usable design block that is not only linked to your current page but that will be re-used everywhere on your website. This is the main difficulty for CSS beginners.
 
 ## Tips & Resources
 
