@@ -17,6 +17,8 @@ Here is [your objective](http://lewagon.github.io/html-css-challenges/03-box-mod
 Here is the div centering technique
 
 ```css
-width: 300px;
-margin: 0 auto;
+div{
+  width: 300px;
+  margin: 0 auto;
+}
 ```
