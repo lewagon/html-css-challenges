@@ -13,7 +13,7 @@ Try to use **generic class names** as much as you can. Think **modularity** & **
 
 ## Tips & Resources
 
-To design your lists of icons, you should change the `block` behavior of list items by inlining them. The problem with pure `inline` elements is that their width depends only on its content. To keep hands on list item width, make them `inline-blocks` elements. These kind of element have inline behavior but you can still play on their box model, yeah! Here are the corresponding CSS rules.
+To design your lists of icons, you should change the `block` behavior of list items by inlining them. The problem with 100% `inline` elements is that their width automatically fits their content so that you cannot change it. To keep hands on list item width, make them `inline-blocks` elements. These kind of element have inline behavior but you can still play on their box model, yeah! Here are the corresponding CSS rules.
 
 ```css
 ul > li{
