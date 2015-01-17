@@ -1,6 +1,6 @@
 ## Background & Objectives
 
-Add a simple stylesheets to design fonts and colors of your profile page.
+Add simple CSS rules to design fonts and colors of your profile page.
 
 ## Specs
 

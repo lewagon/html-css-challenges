@@ -5,11 +5,11 @@ Here is the roadmap of the day
 
 ### `01-profile-content`
 
-A simple challenge to manipulate basic HTML tags and create a first profile page with headers/texts/images/tables.
+A simple challenge to manipulate basic HTML tags and create a profile page with headers/texts/images/tables.
 
 ### `02-fonts-colors`
 
-Add a simple stylesheets to design the fonts and colors of your profile page.
+Add simple CSS rules to design fonts and colors of your profile page.
 
 ### `03-box-model`
 
@@ -22,5 +22,4 @@ Use advanced selectors (id, class, grouping, descendant selectors) to fine-tune 
 
 ### `05-profile-dashboard`
 
-Create a nice profile dashboard by inserting your infos box into a nice 2D layout. You'll have to use most standard CSS positioning techniques.
-
+Create a nice profile dashboard by inserting your infos into a nice 2D layout. You'll have to use most standard CSS positionning techniques.
