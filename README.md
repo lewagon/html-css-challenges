@@ -22,4 +22,4 @@ Use advanced selectors (id, class, grouping, descendant selectors) to fine-tune 
 
 ### `05-profile-dashboard`
 
-Create a nice profile dashboard by inserting your infos into a nice 2D layout. You'll have to use most standard CSS positionning techniques.
+Create a cool profile dashboard by inserting your infos into a nice 2D layout. You'll have to use most standard CSS positionning techniques.
