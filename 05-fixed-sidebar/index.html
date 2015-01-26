@@ -6,11 +6,28 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-
-    <div id="container">
-      <div class="card text-center">
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <div class="card text-center" id="summary">
         <img src="../shared/images/boris.jpg" alt="Boris Paillard" id="img-profile" class="img-circle">
         <h1>Boris Paillard</h1>
         <h2>CEO @Le Wagon</h2>
@@ -21,7 +38,6 @@
 
         <a href="" class="btn-danger">more infos <i class="fa fa-angle-double-right"></i></a>
       </div>
-
       <div class="card text-center">
         <ul class="list-inline">
           <li class="text-center">
@@ -41,8 +57,7 @@
           </li>
         </ul>
       </div>
-
-      <div class="card text-center">
+      <div class="card text-center" id="favorite-movies">
         <h2>My Favorite movies</h2>
         <table id="movies">
           <tbody>
@@ -76,10 +91,9 @@
           </tbody>
         </table>
       </div>
-
-      <div class="card text-center">
+      <div class="card text-center" id="footer">
         <h2>About this page</h2>
-        This page has been coded during the front-end kit <a href="http://lewagon.org" target="_blank">@LeWagon</a> and that was probably the best experience during my entire life.
+        This page has been coded during the front-end session <a href="http://lewagon.org" target="_blank">@LeWagon</a> and that was probably the best experience during my entire life.
         <ul class="list-inline">
          <li>
            <a href="#">
@@ -99,6 +113,5 @@
         </ul>
       </div>
     </div>
-
   </body>
 </html>

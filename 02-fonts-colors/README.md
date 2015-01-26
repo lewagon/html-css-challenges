@@ -6,14 +6,21 @@ Add simple CSS rules to design fonts and colors of your profile page.
 
 [This is an example](http://lewagon.github.io/html-css-challenges/02-fonts-colors/) of what you should reproduce. Here is a list of CSS rules to write:
 
-- Pick a nice background color for the `<body>`, for headers (`<h1>`, `<h2>`, `<h3>`) and for standard texts (`<p>`, `<a>`, `<li>`, etc...)
-- Pick a nice font-family for headers and another one for basic texts.
-- Choose nice `font-size` and `line-height` for header and basic texts.
+
+### Body
+- Pick a nice background color, font family/color/size and line-height for the `<body>`. Setting font properties at the body-level will apply it on all basic texts (`<p>`, `<li>`, etc...).
+
+### Headers
+- Choose a nice color and font-family for headers (`<h1>`, `<h2>`, `<h3>`)
+- Choose harmonious `font-size` and `line-height` for headers
 - Resize image `width`
+
+### Links
+- Change links colors & text decoration
 - Add some hover effects on links using the pseudo-class `a:hover`.
 
 ## Tips & Resources
 
-- Use Colorzilla plugin to pick nice colors from other websites.
+- Use Colorzilla plugin to pick nice colors from other websites. You can find inspiration [here](http://www.flatuicolorpicker.com/).
 - Pick your fonts on [google fonts](https://www.google.com/fonts)
-- For your typo knowledge, **Open Sans** is the standard choice for core texts. **Varela**, **Montserrat** are elegant candidates for headers.
+- On Google fonts, **Open Sans** is the standard choice for core texts. **Varela** & **Montserrat** are elegant candidates for headers.

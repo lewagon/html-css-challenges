@@ -1,5 +1,5 @@
 body{
-  background: #EBEBEB;
+  background-color: #EDEFF0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;
@@ -104,5 +104,45 @@ a:hover{
 
 .btn-danger:hover{
   background-color: #C61414;
+  color: white;
+}
+
+/* Fixed sidebar layout */
+
+#content{
+  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  left: 10%;
+}
+
+#sidebar {
+  position: fixed;
+  left: 0px;
+  background-color: #384047;
+  top: 0px;
+  bottom: 0px;
+  width: 10%;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
   color: white;
 }

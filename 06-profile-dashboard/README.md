@@ -5,7 +5,7 @@ have to use most standard CSS positionning techniques.
 
 ## Specs
 
-Here is [the objective](http://lewagon.github.io/html-css-challenges/05-profile-dashboard/). Before inserting your different profile informations into the layout, start by building this layout step-by-step :
+Here is [the objective](http://lewagon.github.io/html-css-challenges/06-profile-dashboard/). Before inserting your different profile informations into the layout, start by building this layout step-by-step :
 
 1. Create and position the main centered container.
 1. Then, add two floating `<div>` into this container. In order to get the main container wrap these two div, you'll have to use a third div with `clear: both;` CSS property (this is a classic CSS trick).

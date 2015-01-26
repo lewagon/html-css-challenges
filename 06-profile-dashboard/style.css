@@ -42,8 +42,11 @@ a:hover{
 }
 
 
-#img-profile{
+.img-circle{
   border-radius: 50%;
+}
+
+#img-profile{
   width: 100px;
   height: 100px;
   border: 3px solid #cccccc;
@@ -62,7 +65,7 @@ a:hover{
   padding: 10px;
 }
 
-.white-container{
+.card{
   background: white;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
