@@ -51,8 +51,16 @@ To design your lists of icons, you'll have to change the `block` behavior of lis
 Here are the corresponding CSS rules.
 
 ```css
-.list-inline > li{
+.list-inline > li {
   display: inline-block;
   width: 90px;
+}
+```
+
+**Another CSS trick**: even inline, a list keeps a left padding that you should kill.
+
+```css
+.list-inline {
+  padding-left: 0px;
 }
 ```

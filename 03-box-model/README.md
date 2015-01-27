@@ -10,7 +10,7 @@ Here is [your objective](http://lewagon.github.io/html-css-challenges/03-box-mod
 - You should start with the following structure for your page
 
 ```html
-<div class="container">
+<div id="container">
   <div class="card"></div>
   <div class="card"></div>
   <div class="card"></div>

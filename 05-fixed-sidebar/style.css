@@ -48,7 +48,7 @@ a:hover{
 .card{
   background: white;
   text-align: center;
-  padding: 20px;
+  padding: 30px 50px;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
@@ -110,11 +110,9 @@ a:hover{
 /* Fixed sidebar layout */
 
 #content{
-  width: 80%;
-  padding-left: 5%;
-  padding-right: 5%;
   position: relative;
-  left: 10%;
+  margin-left: 120px;
+  padding: 20px 60px;
 }
 
 #sidebar {
@@ -123,7 +121,7 @@ a:hover{
   background-color: #384047;
   top: 0px;
   bottom: 0px;
-  width: 10%;
+  width: 120px;
   text-align: center;
 }
 

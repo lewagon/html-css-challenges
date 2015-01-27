@@ -77,16 +77,16 @@ a:hover{
   text-align: center;
 }
 
-.nav-icons {
+.list-inline {
   padding-left: 0;
 }
 
-.nav-icons li {
+.list-inline li {
   display: inline-block;
   width: 90px;
 }
 
-.nav-icons li i{
+.list-inline li i{
   font-size: 25px;
 }
 
@@ -132,7 +132,7 @@ a:hover{
   padding: 10px 400px 60px 20px;
 }
 
-.share{
+#share{
   position: absolute;
   text-align: center;
   bottom: 10px;
