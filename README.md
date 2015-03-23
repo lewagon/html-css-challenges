@@ -20,6 +20,11 @@ Play with the box model (`margin/border/padding/width/height`) by splitting your
 
 Use advanced selectors (id, class, grouping, descendant selectors) to fine-tune your page with a more subtle design.
 
-### `05-profile-dashboard`
+### `05-fixed-sidebar`
+
+Create a simple layout with an elegant fixed sidebar.
+
+
+### `06-profile-dashboard`
 
 Create a cool profile dashboard by inserting your infos into a nice 2D layout. You'll have to use most standard CSS positionning techniques.
