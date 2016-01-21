@@ -1,3 +1,5 @@
+/* Colors and Fonts */
+
 body{
   background: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
@@ -24,14 +26,6 @@ h2{
 h3{
   font-size: 16px;
   font-weight: 300;
-}
-
-p{
-  text-align: justify;
-}
-
-img{
-  width: 100px;
 }
 
 a{

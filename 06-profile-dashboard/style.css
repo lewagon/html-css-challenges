@@ -42,22 +42,59 @@ a:hover{
 }
 
 
+/* First simple components */
+
+.container-fluid{
+  width: 90%;
+  margin: 30px auto;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
 .img-circle{
   border-radius: 50%;
 }
+.text-center{
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
+
+/* Specific CSS rules */
 
 #img-profile{
   width: 100px;
   height: 100px;
   border: 3px solid #cccccc;
 }
-
 #movies{
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6em;
 }
-
 #movies img{
   width: 80px;
 }
@@ -65,43 +102,7 @@ a:hover{
   padding: 10px;
 }
 
-.card{
-  background: white;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  margin: 10px auto;
-}
-
-.text-center{
-  text-align: center;
-}
-
-.list-inline {
-  padding-left: 0;
-}
-
-.list-inline li {
-  display: inline-block;
-  width: 90px;
-}
-
-.list-inline li i{
-  font-size: 25px;
-}
-
-.btn-danger{
-  background-color: #DD5555;
-  color: white;
-  font-weight: 500;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.btn-danger:hover{
-  background-color: #C61414;
-  color: white;
-}
+/* Dashboard layout */
 
 #wrapper{
   padding: 20px;

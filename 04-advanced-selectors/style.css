@@ -1,3 +1,5 @@
+/* Colors and Fonts */
+
 body{
   background: #EBEBEB;
   font-family: 'Open Sans', sans-serif;
@@ -40,69 +42,62 @@ a:hover{
   text-decoration: none;
 }
 
-#container{
+/* First simple components */
+
+.container{
   width: 500px;
   margin: 30px auto;
 }
-
 .card{
   background: white;
-  text-align: center;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
-
 .img-circle{
   border-radius: 50%;
 }
-
 .text-center{
   text-align: center;
 }
-
-#img-profile{
-  width: 100px;
-  height: 100px;
-  border: 3px solid #cccccc;
-}
-
-#movies{
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 1.6em;
-}
-
-#movies img{
-  width: 80px;
-}
-#movies td{
-  padding: 10px;
-}
-
 .list-inline {
   padding-left: 0;
 }
-
 .list-inline li {
   display: inline-block;
-  width: 90px;
+  padding: 20px;
 }
-
 .list-inline li i{
   font-size: 25px;
 }
-
-.btn-danger{
+.btn-red{
   background-color: #DD5555;
   color: white;
   font-weight: 500;
   padding: 10px;
   border-radius: 4px;
 }
-
-.btn-danger:hover{
+.btn-red:hover{
   background-color: #C61414;
   color: white;
+}
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
 }
