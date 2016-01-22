@@ -21,31 +21,23 @@
 .banner .btn {
   margin-top: 20px;
 }
-
 .banner-profile {
   background: #53443F;
 }
 .banner-profile-header {
-  display: flex;
-  align-items: center;
   padding: 10px 0;
 }
 .banner-profile img {
   width: 100px;
   border-radius: 50%;
 }
-.banner-profile-description {
-  flex: 1 1 auto;
-  padding: 20px;
-}
-.banner-profile-description h1 {
+.banner-profile h1 {
   color: white;
   font-size: 28px;
   font-weight: bold;
   letter-spacing: -1px;
-  margin-top: 0;
 }
-.banner-profile-description h2 {
+.banner-profile h2 {
   color: white;
   opacity: 0.4;
   font-size: 18px;
@@ -53,8 +45,3 @@
   margin-bottom: 0;
   letter-spacing: -1px;
 }
-
-
-
-
-

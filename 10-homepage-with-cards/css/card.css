@@ -1,47 +1,32 @@
 .card {
-  position: relative;
-  height: 175px;
+  height: 250px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
   color: white;
-  margin: 20px auto;
-}
-.card-bg{
-  background-size: cover;
-  border-radius: 3px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-.card-shadow {
-  background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 80%);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-.card-description {
-  font-size: 10px;
-  text-transform: uppercase;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-.card-text {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.card-text h2 {
-  font-size: 24px;
-}
-.card-text p {
-  font-size: 13px;
+  position: relative;
+  border-radius: 5px;
 }
 .card-user {
   position: absolute;
   right: 10px;
   top: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 13px;
+  }
 }
 .card-link {
   position: absolute;
@@ -51,19 +36,7 @@
   z-index:2;
   background: black;
   opacity: 0;
-}
-.card-link:hover{
-  opacity: 0.1;
-}
-
-.cards {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-}
-.cards .card{
-  flex: 1 1 0;
-  -webkit-flex: 1 1 0;
-  -moz-flex: 1 1 0;
-  margin: 20px;
+  &:hover{
+    opacity: 0.1;
+  }
 }
