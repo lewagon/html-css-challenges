@@ -1,9 +1,7 @@
-@import url("button.css");
-@import url("banner.css");
-@import url("card.css");
 @import url("avatar.css");
 @import url("tabs.css");
 @import url("list.css");
+@import url("profile_header.css");
 
 body {
   margin: 0;
