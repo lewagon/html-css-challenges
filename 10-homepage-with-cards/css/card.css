@@ -15,7 +15,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 .card-description {
   position: absolute;
@@ -26,7 +26,7 @@
   font-size: 24px;
 }
 .card-description p {
-  font-size: 13px;
+  font-size: 16px;
 }
 .card-link {
   position: absolute;
