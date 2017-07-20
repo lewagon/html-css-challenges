@@ -1,10 +1,14 @@
+.cards {
+  display: flex;
+}
 .card {
-  height: 250px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  flex: 1 1 auto;
+  height: 200px;
+  margin: 10px;
   background-size: cover !important;
   color: white;
   position: relative;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 .card-user {
   position: absolute;
@@ -15,7 +19,11 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  font-size: 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  opacity: 0.9;
 }
 .card-description {
   position: absolute;
@@ -23,10 +31,14 @@
   left: 10px;
 }
 .card-description h2 {
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
 .card-description p {
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: lighter;
+  opacity: 0.9;
 }
 .card-link {
   position: absolute;

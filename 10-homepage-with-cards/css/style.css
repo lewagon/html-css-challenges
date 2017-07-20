@@ -6,7 +6,7 @@
 body {
   margin: 0;
   margin-bottom: 100px;
-  font-family: Open-sans, sans-serif;
+  font-family: "Open-sans", sans-serif;
 }
 h1, h2, h3 {
   font-family: Raleway, Helvetica, sans-serif;
@@ -16,6 +16,6 @@ h1, h2, h3 {
 }
 
 .container {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 50px auto;
 }
