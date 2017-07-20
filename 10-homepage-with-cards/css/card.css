@@ -3,12 +3,15 @@
 }
 .card {
   flex: 1 1 auto;
-  height: 200px;
   margin: 10px;
-  background-size: cover !important;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.card-body {
+  height: 180px;
+  background-size: cover;
   color: white;
   position: relative;
-  border-radius: 2px;
 }
 .card-user {
   position: absolute;
@@ -51,4 +54,27 @@
 }
 .card-link:hover{
   opacity: 0.1;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.card-footer p {
+  color: rgba(0,0,0,0.4);
+  font-weight: lighter;
+  font-size: 12px;
+}
+.card-footer .controls{
+  display: flex;
+  align-items: center;
+}
+.card-footer .controls i{
+  padding: 0 10px;
+  color: black;
+  opacity: 0.2;
+}
+.card-footer .controls i:hover{
+  opacity: 0.4;
 }
