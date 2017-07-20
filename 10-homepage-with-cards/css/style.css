@@ -8,6 +8,9 @@ body {
   margin-bottom: 100px;
   font-family: 'Varela Round', sans-serif;
 }
+h2 {
+  margin-bottom: 40px;
+}
 .text-center {
   text-align: center;
 }
