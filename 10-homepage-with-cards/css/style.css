@@ -6,15 +6,11 @@
 body {
   margin: 0;
   margin-bottom: 100px;
-  font-family: "Open-sans", sans-serif;
-}
-h1, h2, h3 {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 .text-center {
   text-align: center;
 }
-
 .container {
   max-width: 1000px;
   margin: 50px auto;
