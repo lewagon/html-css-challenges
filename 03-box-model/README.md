@@ -5,7 +5,7 @@ Play with the box model (`margin/border/padding/width/height`) by splitting your
 
 ## Specs
 
-Here is [your objective](http://lewagon.github.io/html-css-challenges/03-box-model/).
+Here is [your objective](https://lewagon.github.io/html-css-challenges/03-box-model/).
 
 - You should start with the following structure for your page
 

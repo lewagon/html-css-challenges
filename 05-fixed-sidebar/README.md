@@ -4,7 +4,7 @@ Build a nice layout with a fixed sidebar and a scrollable page content.
 
 ## Specs
 
-Here is [your objective](http://lewagon.github.io/html-css-challenges/05-fixed-sidebar/).
+Here is [your objective](https://lewagon.github.io/html-css-challenges/05-fixed-sidebar/).
 
 ## Tips & Resources
 
