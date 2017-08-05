@@ -1,20 +1,16 @@
-@import url("button.css");
-@import url("banner.css");
-@import url("card.css");
 @import url("avatar.css");
+@import url("message.css");
+@import url("tabs.css");
 
 body {
   margin: 0;
   margin-bottom: 100px;
   font-family: 'Varela Round', sans-serif;
 }
-h2 {
-  margin-bottom: 40px;
-}
 .text-center {
   text-align: center;
 }
 .container {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 50px auto;
 }
