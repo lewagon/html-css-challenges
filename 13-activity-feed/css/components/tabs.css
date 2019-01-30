@@ -1,0 +1,24 @@
+/* Your tabs CSS code here */
+.tabs-underlined {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.tab-underlined {
+  cursor: pointer;
+  display: inline;
+  margin: 8px 16px;
+  opacity: .4;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-underlined:hover {
+  opacity: .6;
+}
+
+.tab-underlined.active {
+  opacity: 1;
+  border-bottom: 3px solid #555555;
+}
+
