@@ -1,0 +1,32 @@
+@import url("card.css");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 40px;
+}
+a {
+  text-decoration: none;
+}
+span {
+  color: #999999;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
